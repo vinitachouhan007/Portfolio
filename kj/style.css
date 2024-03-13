@@ -1,0 +1,39 @@
+
+#log{
+    padding-left: 550px;;
+    align-items: center;
+}
+
+input{
+     width:250px;
+     height:25px;
+     margin-left: 55px;
+     margin-top: 10px;
+}
+
+button{
+    width: 259px;
+    height: 25px;
+    background-color:skyblue; 
+    margin-left: 55px;
+    margin-top: 10px;
+}
+
+h1{
+    align-items: center;
+    background-image: linear-gradient(blue,purple,red);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    justify-content: center;
+}
+div{
+  box-shadow: 5px 5px 5px 5px GREY;
+    height: 350px;
+    width: 360px;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+}

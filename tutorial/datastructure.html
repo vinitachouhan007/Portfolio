@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>DATA STRUCTURE</title>
+
+<body>
+<a href="#ab">go to bottom</a>
+<h3><i> What is data structure ?</I></h3>
+<p><b>Data can be anything that can be saved. It could be primitive types like string, boolean, integer, or float. Or non-primitive types like arrays, linked list trees, stacks, and queues.
+
+Below is an example of a linked list, stack, and queue in Python:
+
+Here's the code for a linked list:</p></b><br>
+
+# Linked list
+class Node:
+    def __init__(self, data):
+        self.data = data
+        self.next = None
+
+class My_linkedlist:
+    def __init__(self):
+        self.head = None
+        
+    def append(self, data):
+        new_node = Node(data)
+        if self.head is None:
+            self.head = new_node
+            return
+        last_node = self.head
+        while last_node.next:
+            last_node = last_node.next
+        last_node.next = new_node
+        
+    def print_list(self):
+        current_node = self.head
+        while current_node:
+            print(current_node.data)
+            current_node = current_node.next<br>
+
+linked_list = My_linkedlist()
+linked_list.append("List weekdays from the start:")
+linked_list.append("Monday")
+linked_list.append("Tuesday")
+linked_list.append("Wednesday")
+linked_list.append("Thursday")
+linked_list.append("Friday")
+linked_list.print_list()<br>
+
+"""
+Output:
+Weekdays:
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+"""
+
+print()
+print()<br>
+
+You can read more about linked lists in Python here.<br>
+
+Here's the code for a stack:<br>
+
+# Stack
+class My_stack:
+    def __init__(self):
+        self.stack = []
+        
+    def push(self, data):
+        self.stack.append(data)
+        
+    def pop(self):
+        return self.stack.pop()
+        
+    def is_empty(self):
+        return len(self.stack) == 0
+        
+    def peek(self):
+        return self.stack[-1]<br>
+
+stack = My_stack()
+stack.push("Monday")
+stack.push("Tuesday")
+stack.push("Wednesday")
+stack.push("Thursday")
+stack.push("Friday")
+stack.push("Pop Weekdays from the last:")
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())
+print(stack.pop())<br>
+
+"""
+Output:
+Pop Weekdays from the last:<br>
+Friday<br>
+Thursday<br>
+Wednesday<br>
+Tuesday<br>
+Monday<br>
+"""
+
+print()
+print()
+
+<p id="ab"><b>Here's a video about how to use the stack data structure to solve coding challenges.
+
+And here's the code for a queue:</p></b>
+
+<h5><i> content of data structure</i></h5>
+<p><b>
+troduction to Data Structures:
+What is Data Structure: Types, Classifications and Applications
+Introduction to Data Structures
+Common operations on various Data Structures
+Popular types of Data Structures:<br>
+Array<br>
+Linked List<br>
+Stack<br>
+Queue<br>
+Binary Tree<br>
+Binary Search Tree<br>
+Heap<br>
+Hashing<br>
+Graph<br>
+Matrix<br>
+Misc<br>
+Advanced Data Structure<br>
+Overview:
+<h6><i>Introduction to Linear Data Structures
+Introduction to Hierarchical Data Structure
+Overview of Data Structures | Set 3 (Graph, Trie, Segment Tree and Suffix Tree)
+Abstract Data Types</i></h6>
+
+
+
+
+</body>
+</head>
+</html>
